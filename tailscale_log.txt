@@ -1,0 +1,102 @@
+2025/06/30 22:39:34 logtail started
+2025/06/30 22:39:34 Program starting: v1.80.2-t62b8bf6a0-g3c35ee987, Go 1.23.5: []string{"./tailscaled"}
+2025/06/30 22:39:34 LogID: bb74c73db442a5eb593d8583cf7240e6db20185da777f7ec7a4e724913bc2716
+2025/06/30 22:39:34 logpolicy: using system state directory "/var/lib/tailscale"
+2025/06/30 22:39:34 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2025/06/30 22:39:34 dns: [rc=resolved resolved=not-in-use ret=direct]
+2025/06/30 22:39:34 dns: using "direct" mode
+2025/06/30 22:39:34 dns: using *dns.directManager
+2025/06/30 22:39:34 dns: inotify addwatch: context canceled
+2025/06/30 22:39:34 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2025/06/30 22:39:34 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2025/06/30 22:39:34 dns: [rc=resolved resolved=not-in-use ret=direct]
+2025/06/30 22:39:34 dns: using "direct" mode
+2025/06/30 22:39:34 dns: using *dns.directManager
+2025/06/30 22:39:34 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.3.235/16 llu6]} v4=true v6=false}
+2025/06/30 22:39:34 onPortUpdate(port=52831, network=udp6)
+2025/06/30 22:39:34 router: using firewall mode pref 
+2025/06/30 22:39:34 router: default choosing iptables
+2025/06/30 22:39:34 router: netfilter running in iptables mode v6 = true, v6filter = true, v6nat = true
+2025/06/30 22:39:34 onPortUpdate(port=51316, network=udp4)
+2025/06/30 22:39:34 magicsock: disco key = d:d9cdf220b97ad552
+2025/06/30 22:39:34 Creating WireGuard device...
+2025/06/30 22:39:34 Bringing WireGuard device up...
+2025/06/30 22:39:34 Bringing router up...
+2025/06/30 22:39:34 external route: up
+2025/06/30 22:39:34 Clearing router settings...
+2025/06/30 22:39:34 Starting network monitor...
+2025/06/30 22:39:34 Engine created.
+2025/06/30 22:39:34 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.3.235/16 llu6]} v4=true v6=false}
+2025/06/30 22:39:34 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.3.235/16","fe80::7e1e:52ff:fed5:cbd2/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJu0sc0","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5S1cvS","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2025/06/30 22:39:34 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.3.235/16","fe80::7e1e:52ff:fed5:cbd2/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::9c1a:8eca:5fcc:ac44/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkJu0sc0","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5S1cvS","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2025/06/30 22:39:34 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.3.235/16 llu6]} v4=true v6=false}
+2025/06/30 22:39:34 pm: using backend prefs for "profile-92c7": Prefs{ra=false dns=true want=true routes=[] statefulFiltering=false nf=on update=check Persist{o=, n=[ivmLy] u="Juanito-04@github"}}
+2025/06/30 22:39:34 onPortUpdate(port=52831, network=udp6)
+2025/06/30 22:39:34 logpolicy: using system state directory "/var/lib/tailscale"
+2025/06/30 22:39:34 onPortUpdate(port=51316, network=udp4)
+2025/06/30 22:39:34 Rebind; defIf="eth0", ips=[10.0.3.235/16 fe80::7e1e:52ff:fed5:cbd2/64]
+2025/06/30 22:39:34 magicsock: 0 active derp conns
+2025/06/30 22:39:34 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.3.235
+2025/06/30 22:39:34 got LocalBackend in 36ms
+2025/06/30 22:39:34 Start
+2025/06/30 22:39:34 Backend: logs: be:bb74c73db442a5eb593d8583cf7240e6db20185da777f7ec7a4e724913bc2716 fe:
+2025/06/30 22:39:34 control: client.Login(0)
+2025/06/30 22:39:34 health(warnable=warming-up): error: Tailscale is starting. Please wait.
+2025/06/30 22:39:34 control: doLogin(regen=false, hasUrl=false)
+2025/06/30 22:39:34 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2025/06/30 22:39:34 control: RegisterReq: onode= node=[ivmLy] fup=false nks=false
+2025/06/30 22:39:35 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2025/06/30 22:39:35 health(warnable=not-in-map-poll): ok
+2025/06/30 22:39:35 control: netmap: got new dial plan from control
+2025/06/30 22:39:35 active login: Juanito-04@github
+2025/06/30 22:39:35 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
+2025/06/30 22:39:35 magicsock: SetPrivateKey called (init)
+2025/06/30 22:39:35 wgengine: Reconfig: configuring userspace WireGuard config (with 0/2 peers)
+2025/06/30 22:39:35 wgengine: Reconfig: configuring router
+2025/06/30 22:39:35 wgengine: Reconfig: configuring DNS
+2025/06/30 22:39:35 dns: Set: {DefaultResolvers:[] Routes:{tail4d3724.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail4d3724.ts.net.] Hosts:7}
+2025/06/30 22:39:35 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:7 LocalDomains:[tail4d3724.ts.net.]+65arpa, cloud="azure"}
+2025/06/30 22:39:35 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail4d3724.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2025/06/30 22:39:35 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2025/06/30 22:39:35 restarted resolved after 1ms
+2025/06/30 22:39:35 peerapi: serving on http://100.114.126.45:60705
+2025/06/30 22:39:35 peerapi: serving on http://[fd7a:115c:a1e0::9301:7e2f]:55812
+2025/06/30 22:39:35 magicsock: home DERP changing from derp-0 [0ms] to derp-27 [5ms]
+2025/06/30 22:39:35 magicsock: home is now derp-27 (iad)
+2025/06/30 22:39:35 magicsock: adding connection to derp-27 for home-keep-alive
+2025/06/30 22:39:35 magicsock: 1 active derp conns: derp-27=cr0s,wr0s
+2025/06/30 22:39:35 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2025/06/30 22:39:35 control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#27 portmap= link="" firewallmode="ipt-default"}
+2025/06/30 22:39:35 magicsock: endpoints changed: 74.249.85.202:59472 (stun), 10.0.3.235:51316 (local), 172.17.0.1:51316 (local)
+2025/06/30 22:39:35 derphttp.Client.Connect: connecting to derp-27 (iad)
+2025/06/30 22:39:35 health(warnable=no-derp-connection): ok
+2025/06/30 22:39:35 health(warnable=warming-up): ok
+2025/06/30 22:39:35 health(warnable=no-derp-connection): ok
+2025/06/30 22:39:35 magicsock: derp-27 connected; connGen=1
+2025/06/30 22:39:35 health(warnable=no-derp-connection): ok
+2025/06/30 22:39:35 [RATELIMIT] format("health(warnable=%s): ok")
+2025/06/30 22:46:48 wgengine: Reconfig: configuring router
+2025/06/30 22:46:48 wgengine: Reconfig: configuring DNS
+2025/06/30 22:46:48 dns: Set: {DefaultResolvers:[] Routes:{tail4d3724.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail4d3724.ts.net.] Hosts:8}
+2025/06/30 22:46:48 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:8 LocalDomains:[tail4d3724.ts.net.]+65arpa, cloud="azure"}
+2025/06/30 22:46:48 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail4d3724.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2025/06/30 22:46:48 restarted resolved after 1ms
+2025/06/30 22:46:59 wgengine: Reconfig: configuring userspace WireGuard config (with 0/3 peers)
+2025/06/30 22:46:59 wgengine: Reconfig: configuring router
+2025/06/30 22:46:59 wgengine: Reconfig: configuring DNS
+2025/06/30 22:46:59 dns: Set: {DefaultResolvers:[] Routes:{tail4d3724.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail4d3724.ts.net.] Hosts:8}
+2025/06/30 22:46:59 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:8 LocalDomains:[tail4d3724.ts.net.]+65arpa, cloud="azure"}
+2025/06/30 22:46:59 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail4d3724.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2025/06/30 22:46:59 restarted resolved after 1ms
+2025/06/30 22:47:51 wgengine: Reconfig: configuring userspace WireGuard config (with 0/4 peers)
+2025/06/30 22:47:51 wgengine: Reconfig: configuring router
+2025/06/30 22:47:51 wgengine: Reconfig: configuring DNS
+2025/06/30 22:47:51 dns: Set: {DefaultResolvers:[] Routes:{tail4d3724.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail4d3724.ts.net.] Hosts:8}
+2025/06/30 22:47:51 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:8 LocalDomains:[tail4d3724.ts.net.]+65arpa, cloud="azure"}
+2025/06/30 22:47:51 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail4d3724.ts.net. gbuypll1kt3upd1osau5klzz5b.cx.internal.cloudapp.net.] }
+2025/06/30 22:47:51 restarted resolved after 1ms
+2025/06/30 22:47:52 wgengine: Reconfig: [fJNJZ] changed from "discokey:e4b4644f0182ae91d49598696428ac09d3d50c379eeaaa743583ef0700765519" to "discokey:47fa483d60718be85e803cdf602790451e6dd247f24f344e26e7e7c8ddc61c42"
+2025/06/30 22:54:09 Received error: PollNetMap: unexpected EOF
+2025/06/30 22:54:09 control: controlhttp: forcing port 443 dial due to recent noise dial
+2025/06/30 22:54:10 control: controlhttp: forcing port 443 dial due to recent noise dial
+2025/06/30 22:54:14 control: netmap: got new dial plan from control
